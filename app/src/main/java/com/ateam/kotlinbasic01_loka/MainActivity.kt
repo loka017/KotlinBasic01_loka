@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
 
 //                    코드에 메모남기기-주석
 //            Ctrl + /
-            Log.d("메인화면로그", "클릭용 버튼 눌림")
+            Log.d("메인화면로그", "클릭용 버튼 눌림")// 디버그
+            Log.e("메인화면로그", "에러관련 로그")// 에러
         }
     }
 }
